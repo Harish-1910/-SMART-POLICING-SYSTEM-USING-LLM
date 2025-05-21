@@ -123,19 +123,20 @@ python-dotenv==1.0.0
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](Screenshots/Home%20page.png)
+![Home Page](IntelCop/Screenshots/Home%20page.png)
 
 ### 🤖 LLM Response Page
-![LLM Response Page](Screenshots/LLM%20Response%20page.png)
+![LLM Response Page](IntelCop/Screenshots/LLM%20Response%20page.png)
 
 ### 🔐 Login Page
-![Login Page](Screenshots/Login%20page.png)
+![Login Page](IntelCop/Screenshots/Login%20page.png)
 
 ### 💬 Prompt Page
-![Prompt Page](Screenshots/Prompt%20page.png)
+![Prompt Page](IntelCop/Screenshots/Prompt%20page.png)
 
 ### 📝 Registration Page
-![Registration Page](Screenshots/Registration%20page.png)
+![Registration Page](IntelCop/Screenshots/Registration%20page.png)
+
 
 
 ---
