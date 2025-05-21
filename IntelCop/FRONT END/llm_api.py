@@ -3,7 +3,7 @@ import os
 from groq import Groq
 # Get the API key from the environment variable or use the fallback value
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "Your_groq_key")
 def query_llm(prompt):
 
 # Get the API key from the environment variable or use the fallback value
