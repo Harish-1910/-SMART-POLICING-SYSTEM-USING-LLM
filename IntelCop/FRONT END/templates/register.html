@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <ul class="flashes">
+      {% for category, message in messages %}
+        <li class="{{ category }}">{{ message }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+<div class="register-container">
+    <h2>Register</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.username(class="form-input", placeholder="Username") }}
+        {{ form.email(class="form-input", placeholder="Email") }}
+        {{ form.password(class="form-input", placeholder="Password") }}
+        {{ form.confirm_password(class="form-input", placeholder="Confirm Password") }}
+        {{ form.submit(class="btn btn-success") }}
+    </form>
+    <p>Already have an account? <a href="{{ url_for('login') }}">Login</a></p>
+</div>
+
+<style>
+    .register-container {
+        margin: 50px auto;
+        background: rgba(255, 255, 255, 0.256);
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 350px;
+        backdrop-filter: blur(1px);
+    }
+    .register-container h2 {
+        margin-bottom: 1.5rem;
+        color: white;
+    }
+    .form-input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .btn.btn-success {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 20px;
+        border: none;
+        background-color: #28a745;
+        color: white;
+        cursor: pointer;
+    }
+    .btn.btn-success:hover {
+        background-color: #218838;
+    }
+    p {
+        margin-top: 10px;
+        color: white;
+    }
+    .flashes {
+        list-style: none;
+        padding: 0;
+    }
+    .flashes li {
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .flashes li.error {
+        background-color: #f8d7da;
+        color: #842029;
+    }
+    .flashes li.success {
+        background-color: #d1e7dd;
+        color: #0f5132;
+    }
+</style>
+{% endblock %}

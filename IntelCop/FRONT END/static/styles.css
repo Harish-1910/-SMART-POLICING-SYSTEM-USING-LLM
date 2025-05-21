@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-photo/3d-render-crime-scene-tape-against-defocussed-background_1048-6111.jpg?ga=GA1.1.1092142744.1727193731&semt=ais_hybrid");
+}
+
+nav {
+    background: #333;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav a:hover{
+    color:#818181;
+    text-decoration-line: underline;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+    margin: auto;
+    background: white;
+    padding-bottom: 150px;
+   
+    background-image: url("https://img.freepik.com/free-photo/terrifying-hand-silhouette-studio_23-2150710096.jpg?ga=GA1.1.1092142744.1727193731&semt=ais_hybrid");
+    background-size: cover;
+    background-position: center;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.flash {
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+    color: white;
+}
+
+.flash.success {
+    background-color: green;
+}
+
+.flash.danger {
+    background-color: red;
+}
+.flashes {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+.flashes li {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.flashes li.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.flashes li.success {
+    background-color: #d4edda;
+    color: #155724;
+}

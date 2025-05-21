@@ -1,0 +1,13 @@
+[
+    {
+      "instruction": "What is the most common crime in Mumbai?",
+      "input": "Crime dataset summary",
+      "output": "Theft is the most common crime with 120 cases reported."
+    },
+    {
+      "instruction": "Which city has the highest cybercrime cases?",
+      "input": "Crime dataset summary",
+      "output": "Bengaluru has the highest number of cybercrimes, with 150 cases."
+    }
+  ]
+  
