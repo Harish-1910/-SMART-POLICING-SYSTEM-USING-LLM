@@ -1,7 +1,7 @@
 # SMART-POLICING-SYSTEM-USING-LLM
-# 🚔 IntelCop – LLM-Powered Crime Insight Dashboard
+# 🚔 IntelCop 
 
-**IntelCop** is an AI-powered crime data analysis tool built using **Streamlit** and **Flask**, and powered by **DeepSeek LLM**. This interactive dashboard allows users to ask questions in natural language, visualize trends, and gain insights from Indian crime datasets.
+**IntelCop** is an AI-powered crime data analysis tool built using **Streamlit** and **Flask**, and powered by **DeepSeek LLM**. This interactive dashboard allows users to ask questions in natural language,  and gain insights from  crime datasets.
 
 ---
 
